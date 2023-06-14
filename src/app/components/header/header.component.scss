@@ -1,0 +1,27 @@
+@import '../../../shared/vars.scss';
+
+@media screen and (min-width: 768px) {
+  
+  header {
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    margin-bottom: 5rem;
+    
+    .menu-bars {
+      font-size: 3.8rem;
+    }
+    
+    a {
+      svg {
+        min-width: 3rem;
+      }
+    }
+    
+    -webkit-box-shadow: 10px 10px 43px -8px rgba(0,0,0,0.04);
+    -moz-box-shadow: 10px 10px 43px -8px rgba(0,0,0,0.04);
+    box-shadow: 10px 10px 43px -8px rgba(0,0,0,0.04);
+  }
+}

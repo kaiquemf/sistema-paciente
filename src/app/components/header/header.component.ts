@@ -1,3 +1,5 @@
+import { faBars, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-
+  // Icons
+  faMagnifyingGlass = faMagnifyingGlass;
+  faBars = faBars;
 }
