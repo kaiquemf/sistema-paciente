@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'shared/vars.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*:focus {
+  outline: none;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: $main-font-family;
+}
+
+::-webkit-scrollbar {
+  width: 0.01rem;
+} ::-webkit-scrollbar-track {
+  background: none;
+} ::-webkit-scrollbar-thumb {
+  background: $light-color;
+}
+
+button {
+  background: none;
+  border: none;
+}
