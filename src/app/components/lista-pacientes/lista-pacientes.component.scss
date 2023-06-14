@@ -1,0 +1,26 @@
+@import '../../../shared/vars.scss';
+
+table {
+  padding: 0 2rem;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid #ccc;
+
+  font-size: 1.3rem;
+}
+th {
+  background: #f2f2f2;
+}
+
+td.botoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .6rem;
+}
