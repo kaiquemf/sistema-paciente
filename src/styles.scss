@@ -4,24 +4,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  button {
+    cursor: pointer;
+    font-family: $main-font;
+    background: none;
+    border: none;
+  }
 }*:focus {
   outline: none;
 }
 
 :root {
+  font-family: $main-font;
   font-size: 62.5%;
-  font-family: $main-font-family;
+}
+h1 {
+  margin-bottom: 1rem;
 }
 
-::-webkit-scrollbar {
-  width: 0.01rem;
-} ::-webkit-scrollbar-track {
-  background: none;
-} ::-webkit-scrollbar-thumb {
-  background: $light-color;
-}
-
-button {
-  background: none;
-  border: none;
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
