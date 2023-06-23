@@ -1,0 +1,43 @@
+@import '../../../shared/vars.scss';
+
+header {
+  height: 8rem;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  fa-icon {
+    font-size: 4rem;
+  }
+  a {
+    svg {
+      min-width: 3rem;
+    }
+  }
+
+  .input-search {
+
+    input {
+      position: relative;
+      padding: .4rem 1rem;
+      border-radius: 2rem;
+      border: 1px solid $gray-color;
+
+      font-family: $main-font;
+      
+    }
+    fa-icon {
+      color: $gray-color;
+      position: absolute;
+      font-size: 1.8rem;
+      right: 4.3rem;
+      top: 2.7rem;
+    }
+  }
+
+  background: $background-color;
+  -webkit-box-shadow: 0px 17px 31px 1px rgba(0,0,0,0.03);
+  -moz-box-shadow: 0px 17px 31px 1px rgba(0,0,0,0.03);
+  box-shadow: 0px 17px 31px 1px rgba(0,0,0,0.03);
+}
